@@ -11,6 +11,23 @@ deploy-options.json
 # LWC VSCode autocomplete
 **/lwc/jsconfig.json
 
+.husky
+
+.vscode
+
+README.md
+
+project-scratch-def.json
+
+.eslintrc.json
+
+.prettierignore
+.prettierrc
+
+jest.config.js
+
+**/scripts/
+
 # LWC Jest coverage reports
 coverage/
 
