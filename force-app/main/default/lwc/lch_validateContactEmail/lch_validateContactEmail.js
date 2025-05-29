@@ -13,7 +13,7 @@ export default class Lch_validateContactEmail extends LightningElement {
 
     // Validate email on button click
     handleValidate() {
-        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        const emailRegex = /^[^\s@]+@(lseg|lch)\.com$/;
         if (!this.email) {
             this.validationMessage = 'Please enter an email address.';
             this.messageClass = 'slds-text-color_destructive';
